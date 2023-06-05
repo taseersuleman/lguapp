@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run iDHU-Ensem.py
+web: sh setup.sh && streamlit run test.py
