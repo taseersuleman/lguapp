@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 
 st.balloons()
 st.title("My App")
@@ -12,8 +12,8 @@ st.info("input")
 
 st.file_uploader("Choose a file")
 
-image = Image.open('m1A_image.png')
-st.image(image, width=400)
+#image = Image.open('m1A_image.png')
+#st.image(image, width=400)
 
 a = 6
 b = 7
